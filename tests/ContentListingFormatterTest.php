@@ -42,8 +42,5 @@ class ContentListingFormatterTest extends TestCase
         ];
     }
 
-    private function addPathInfo(array $entry)
-    {
-        return $entry + Util::pathinfo($entry['path']);
-    }
+    
 }
